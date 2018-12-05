@@ -122,8 +122,7 @@ class ViewController: UIViewController {
         But3.isEnabled=true
         But4.isEnabled=true
         Restart.isEnabled=false
-        Restart.isHidden=true
-        
+        Restart.isHidden=true 
     }
 }
 
