@@ -104,7 +104,6 @@ class ViewController: UIViewController {
             Restart.isEnabled=true
             Restart.isHidden=false
         }
-
     }
     
     @IBAction func RestartC(_ sender: UIButton) {
