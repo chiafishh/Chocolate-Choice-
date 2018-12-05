@@ -73,7 +73,6 @@ class ViewController: UIViewController {
         But2.setTitle(randomQueArray[count-1].choose[1], for:UIControl.State.normal)
         But3.setTitle(randomQueArray[count-1].choose[2], for:UIControl.State.normal)
         But4.setTitle(randomQueArray[count-1].choose[3], for:UIControl.State.normal)
-        
     }
     
     override func viewDidLoad() {
