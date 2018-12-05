@@ -51,7 +51,6 @@ class ViewController: UIViewController {
         QueArray.append(QueStruct(Que:"Chiafish喜歡哪一牌的巧克力?", choose:["Royce","Snickers","MilkyWay","BOO"], ans: 1, selected:false))
         QueArray.append(QueStruct(Que:"Chiafish小時候喜歡幾％的巧克力?", choose:["10%","50%","70%","100%"], ans: 2, selected:false))
         QueArray.append(QueStruct(Que:"Chiafish現在喜歡幾％的巧克力?", choose:["10%","50%","80%","100%"], ans: 3, selected:false))
-
     }
     
     func ramdomNum()
@@ -122,7 +121,7 @@ class ViewController: UIViewController {
         But3.isEnabled=true
         But4.isEnabled=true
         Restart.isEnabled=false
-        Restart.isHidden=true 
+        Restart.isHidden=true
     }
 }
 
