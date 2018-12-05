@@ -49,7 +49,8 @@ class ViewController: UIViewController {
         QueArray.append(QueStruct(Que:"什麼節慶 不會 熱銷巧克力?", choose:["萬聖節","聖誕節","情人節","清明節"], ans: 4, selected:false))
         QueArray.append(QueStruct(Que:"Chiafish吃巧克力 不 會有什麼感覺？", choose:["幸福","快樂","升天","滿足"], ans: 3, selected:false))
         QueArray.append(QueStruct(Que:"Chiafish喜歡哪一牌的巧克力?", choose:["Royce","Snickers","MilkyWay","BOO"], ans: 1, selected:false))
-
+        QueArray.append(QueStruct(Que:"Chiafish小時候喜歡幾％的巧克力?", choose:["10%","50%","70%","100%"], ans: 2, selected:false))
+        QueArray.append(QueStruct(Que:"Chiafish現在喜歡幾％的巧克力?", choose:["10%","50%","80%","100%"], ans: 3, selected:false))
 
     }
     
